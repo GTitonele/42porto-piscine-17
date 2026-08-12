@@ -1,7 +1,7 @@
 
 #include <stdlib.h>
 
-int	*ft_range(int start, int end)
+int	*ft_rrange(int start, int end)
 {
 	int *array;
 	int size;
@@ -23,8 +23,8 @@ int	*ft_range(int start, int end)
 		return (NULL);
 	while (i < size)
 	{
-		array[i] = start;
-		start += step;
+		array[i] = end;
+		end -= step;
 		i++;
 	}
 	return(array);
