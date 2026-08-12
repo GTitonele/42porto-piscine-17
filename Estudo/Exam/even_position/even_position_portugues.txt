@@ -1,0 +1,11 @@
+Nome do exercício : even_position Arquivo esperado : even_position.c
+Funções permitidas : write ——————————————————————————–
+
+Escreva um programa que receba uma string como argumento e exiba os
+caracteres que se encontram em posições pares da string, seguidos por
+uma quebra de linha.
+
+O programa deve receber exatamente 1 argumento.
+
+Se o número de argumentos for diferente de 1, o programa deve exibir
+apenas uma quebra de linha.

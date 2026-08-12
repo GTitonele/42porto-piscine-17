@@ -1,0 +1,15 @@
+Nome do exercício : count_words 
+Arquivo esperado : count_words.c 
+Funções permitidas : ——————————————————————————–
+
+--------------------------------------------------------------
+
+Escreva uma funcao que receba uma string e retorne o número de palavras
+contidas nessa string.
+
+Uma palavra é uma parte da string delimitada por espaços ou pelo
+início/fim da string.
+
+Sua função deve ser declarada da seguinte forma:
+
+int count_words(char *str);

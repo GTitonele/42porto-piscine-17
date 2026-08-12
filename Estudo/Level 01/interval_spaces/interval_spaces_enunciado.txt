@@ -1,0 +1,31 @@
+Assignment: interval_spaces
+
+Assignment name: interval_spaces
+Expected files: interval_spaces.c
+Allowed functions: write
+
+Enunciado
+
+Escreva um programa que receba uma string como parâmetro e exiba essa
+string seguida por uma nova linha, inserindo exatamente três espaços
+entre cada caractere da string.
+
+Se o número de argumentos for diferente de 1, o programa deve apenas
+exibir uma nova linha (\n).
+
+Exemplos de uso
+
+    $> ./interval_spaces "abc" | cat -e
+    a   b   c$
+
+    $> ./interval_spaces "Hello World" | cat -e
+    H   e   l   l   o       W   o   r   l   d$
+
+    $> ./interval_spaces "42" | cat -e
+    4   2$
+
+    $> ./interval_spaces | cat -e
+    $
+
+    $> ./interval_spaces "a" "b" | cat -e
+    $

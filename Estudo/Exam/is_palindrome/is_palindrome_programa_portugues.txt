@@ -1,0 +1,20 @@
+Nome do exercício : is_palindrome 
+Arquivo esperado : is_palindrome.c
+Funções permitidas : write 
+
+——————————————————————————–
+
+Escreva um programa que receba uma string como argumento e verifique se
+ela é um palíndromo.
+
+Um palíndromo é uma sequência de caracteres que pode ser lida da mesma
+forma da esquerda para a direita e da direita para a esquerda.
+
+Se a string for um palíndromo, o programa deve exibir a própria string
+seguida de uma quebra de linha.
+
+Se a string não for um palíndromo, o programa deve exibir apenas uma
+quebra de linha.
+
+Se o número de argumentos for diferente de 1, o programa deve exibir
+apenas uma quebra de linha.
