@@ -1,0 +1,29 @@
+
+# Compiled files
+*.o
+*.out
+*.a
+*.so
+
+# Executables commonly generated during testing
+a.out
+
+# Debug files
+*.dSYM/
+*.core
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# VS Code local settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux temporary files
+.directory
