@@ -44,6 +44,8 @@ void	rush(int x, int y)
 
 	largura = 0;
 	comprimento = 0;
+	if (x <= 0 || y <= 0)
+		return ;
 	while (largura < y)
 	{
 		comprimento = 0;
